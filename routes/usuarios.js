@@ -16,12 +16,12 @@ const { esRoleValido, esEmailValido, existeUsuarioPorId } = require('../helpers/
 // const { esAdminRole, tieneRole } = require('../middlewares/validar-roles');
 // const { validarCampos} = require('../middlewares/dataValidation');
 
+
 const {validarJWT, tieneRole, esAdminRole, validarCampos} = require('../middlewares');
 
 
 
 const router = Router();
-
 
 router.get('/',usuariosGet);
 
